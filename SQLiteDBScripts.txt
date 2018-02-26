@@ -1,0 +1,11 @@
+CREATE TABLE Customer
+(ID INTEGER NOT NULL,
+FirstName VARCHAR(25),
+LastName VARCHAR(25),
+Address VARCHAR(100),
+Email VARCHAR(25),
+DateUpdated DateTime,
+UpdatedBy VARCHAR(25),
+PRIMARY KEY (ID))
+;
+
